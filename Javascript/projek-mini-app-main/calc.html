@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Kakulator</title>
+</head>
+
+<body>
+  <div>
+    <p>Reza</p>
+    <h1>KALKULATOR</h1>
+  </div>
+  <div class="container">
+    <form name="form">
+      <input class="hasil" name="hasil" placeholder=".....">
+    </form>
+
+    <table>
+      <tr>
+        <td><input type="button" class="button" value="c" style="background: red; color: black;" onclick="clean()"></td>
+        <td><input type="button" class="button" value="x" onclick="insert('*')"></td>
+        <td><input type="button" class="button" value=":" onclick="insert('/')"></td>
+        <td><input type="button" class="button" style="font-size: 15px; background: red;color: black;" value="DEL"
+            onclick="back()"></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="button" value="7" onclick="insert(7)"></td>
+        <td><input type="button" class="button" value="8" onclick="insert(8)"></td>
+        <td><input type="button" class="button" value="9" onclick="insert(9)"></td>
+        <td><input type="button" class="button" value="-" onclick="insert('-')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="button" value="4" onclick="insert(4)"></td>
+        <td><input type="button" class="button" value="5" onclick="insert(5)"></td>
+        <td><input type="button" class="button" value="6" onclick="insert(6)"></td>
+        <td><input type="button" class="button" value="+" onclick="insert('+')"></td>
+      </tr>
+      <tr>
+        <td><input type="button" class="button" value="1" onclick="insert(1)"></td>
+        <td><input type="button" class="button" value="2" onclick="insert(2)"></td>
+        <td><input type="button" class="button" value="3" onclick="insert(3)"></td>
+        <td rowspan="5"><input type="button" class="button" style="height: 105px;" value="=" onclick="equal()"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type="button" class="button" style="width: 104px;" value="0" onclick="insert(0)"></td>
+        <td><input type="button" class="button" value="." onclick="insert('.')"></td>
+      </tr>
+    </table>
+  </div>
+  <script src="home.js"></script>
+</body>
+
+</html>
