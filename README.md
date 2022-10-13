@@ -5,7 +5,7 @@ Mari jadikan repository ini sebagai ajang kita berkontribusi di dunia open sourc
 
 ## Bagaimana cara menjadi kontributor ??
 
-SEBELUM MENJADI KONTRIBUTOR,PASTIKAN ANDA SUDAH MENDAFTAR DI SITUS RESMI HACKTOBERFEST MENGGUNAKAN AKUN GITHUB
+SEBELUM MENJADI KONTRIBUTOR,PASTIKAN ANDA SUDAH MENDAFTAR DI SITUS RESMI [HACKTOBERFEST](https://hacktoberfest.com/) MENGGUNAKAN AKUN GITHUB
 
 1. Fork repository ini
    ![ForkRepo](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step1.png)
@@ -27,3 +27,4 @@ SEBELUM MENJADI KONTRIBUTOR,PASTIKAN ANDA SUDAH MENDAFTAR DI SITUS RESMI HACKTOB
     ![gitpush](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step8.png)
 11. Perlu diketahui ketika mengetikkan perintah (git push -u origin namabranch)
     namabranch disini adalah nama branch yang anda buat di step nomor 9
+12. Lalu kembali ke browser dan buka salinan repository ini yang ada di daftar repository anda
