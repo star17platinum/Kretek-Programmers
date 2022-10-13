@@ -28,8 +28,8 @@ SEBELUM MENJADI KONTRIBUTOR,PASTIKAN ANDA SUDAH MENDAFTAR DI SITUS RESMI [HACKTO
 11. Perlu diketahui ketika mengetikkan perintah (git push -u origin namabranch)
     namabranch disini adalah nama branch yang anda buat di step nomor 9
 12. Lalu kembali ke browser dan buka salinan repository ini yang ada di daftar repository anda,lalu anda     akan melihat pemberitahuan seperti berikut,lalu klik saja button Compare & Pull Request 
-   ![compare]("./")
+   ![compare](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step9.png)
 13. Anda akan diarahkan ke halaman seperti di bawah ini,lalu klik button Create pull request
-   ![createrequest]("./")
+   ![createrequest](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step10.png)
 14. Jika sudah, anda bisa memeriksa kembali halaman website hacktoberfest dan akan muncul keterangan kontribusi seperti berikut
-![cekhacktoberfest]("./")
+![cekhacktoberfest](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step11.jpg)
