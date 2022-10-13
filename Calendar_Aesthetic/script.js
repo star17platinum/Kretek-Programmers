@@ -25,20 +25,28 @@ function updateClock() {
   };
 
   var months = [
-    "Januari",
-    "Februari",
-    "Maret",
+    "January",
+    "February",
+    "March",
     "April",
-    "Mei",
-    "Juni",
-    "Juli",
-    "Agustus",
+    "May",
+    "Juny",
+    "July",
+    "August",
     "September",
-    "Oktober",
+    "October",
     "November",
     "Desember",
   ];
-  var week = ["Ahad", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
+  var week = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
   var ids = [
     "dayname",
     "month",
