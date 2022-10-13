@@ -15,7 +15,7 @@ SEBELUM MENJADI KONTRIBUTOR,PASTIKAN ANDA SUDAH MENDAFTAR DI SITUS RESMI [HACKTO
    ![CloneRepo](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step2.png)
 5. Lalu paste link tersebut dengan menyertakan perintah git clone "linkrepo"
    ![Clone](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step3.png)
-6. Lalu masuk ke directory dari repository tersebut menggunakan perintah cd "Kretek-Programmers"
+6. Lalu masuk ke directory dari repository tersebut menggunakan perintah ( cd Kretek-Programmers )
 7. Lalu buka directory,bisa melalui perintah ( code . )
 8. Jadilah kontributor yang baik dengan menambah pengetahuan anda tentang bahasa / teknologi pemrograman yang anda ketahui,anda juga boleh menambah folder sendiri jika folder yang tersedia masih kurang
    ![Ngoding](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step4.png)
@@ -27,4 +27,9 @@ SEBELUM MENJADI KONTRIBUTOR,PASTIKAN ANDA SUDAH MENDAFTAR DI SITUS RESMI [HACKTO
     ![gitpush](https://github.com/star17platinum/Kretek-Programmers/blob/main/Tutorial/step8.png)
 11. Perlu diketahui ketika mengetikkan perintah (git push -u origin namabranch)
     namabranch disini adalah nama branch yang anda buat di step nomor 9
-12. Lalu kembali ke browser dan buka salinan repository ini yang ada di daftar repository anda
+12. Lalu kembali ke browser dan buka salinan repository ini yang ada di daftar repository anda,lalu anda     akan melihat pemberitahuan seperti berikut,lalu klik saja button Compare & Pull Request 
+   ![compare]("./")
+13. Anda akan diarahkan ke halaman seperti di bawah ini,lalu klik button Create pull request
+   ![createrequest]("./")
+14. Jika sudah, anda bisa memeriksa kembali halaman website hacktoberfest dan akan muncul keterangan kontribusi seperti berikut
+![cekhacktoberfest]("./")
