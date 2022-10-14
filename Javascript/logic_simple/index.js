@@ -26,3 +26,18 @@ for (var s = 0; s < 9; s++) {
   }
   document.write("<br>");
 }
+document.write("<br>");
+document.write("<br>");
+
+for (var x = 0; x <= 10; x++) {
+  for (var e = 0; e <= 10; e++) {
+    if (e <= x && x >= 9 - (e - 1)) {
+      document.write("*");
+    } else if (e >= x && x <= 9 - (e - 1)) {
+      document.write("*");
+    } else {
+      document.write("_");
+    }
+  }
+  document.write("<br>");
+}
