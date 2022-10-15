@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  gap: 3rem;
+  font-size: xx-large;
+}
+h1 {
+  font-size: 200px;
+}
