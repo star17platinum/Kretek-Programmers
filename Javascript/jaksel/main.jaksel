@@ -1,0 +1,24 @@
+literally umur itu 20
+spill "Umur lu " + umur
+kalo umur lebih gede 20
+  spill "Elu tua"
+  literally umurgua itu umur + 10
+  spill "Kalo gua umurnya " + umurgua
+  kalo umurgua lebih gede 30
+    spill "gua lebih tua"
+  udahan
+kalogak
+  spill "dasar bocil"
+udahan
+spill "Udahan ah"
+
+//Instalation
+npm install -g jaksel-language
+
+//Run
+jaksel main.jaksel
+
+===>
+// Umur lu 20
+// dasar bocil
+// Udahan ah
