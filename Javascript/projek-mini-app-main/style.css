@@ -116,7 +116,7 @@ body {
 
   @media screen and (max-width: 415px) {
     body {
-        background-color: whitesmoke;
+        background-color: white;
     }
       .container {
     margin-left: 12%;
