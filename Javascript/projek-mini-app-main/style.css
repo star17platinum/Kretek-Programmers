@@ -34,7 +34,7 @@ body {
   .month {
     width: 100%;
     height: 12rem;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #0400ff;
     display: flex;
     justify-content: space-between;
@@ -116,7 +116,7 @@ body {
 
   @media screen and (max-width: 415px) {
     body {
-        background-color: whitesmoke;
+        background-color: white;
     }
       .container {
     margin-left: 12%;
@@ -171,7 +171,7 @@ body {
         font-size: 15px;
         margin-top: 5%;
         margin-left: 36%;
-        color: lightgoldenrodyellow;
+        color: rgb(210, 250, 222);
       }
 
   }
