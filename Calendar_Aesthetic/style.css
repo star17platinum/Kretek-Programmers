@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #10101e;
+}
+
+.datetime {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: #10101e17;
+  font-family: "Saira", sans-serif;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  border: 7px double #2e94e3;
+  border-radius: 30px;
+  -webkit-box-reflect: below 1px
+    linear-gradient(transparent, rgba(255, 255, 255, 0.1));
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 250px;
+  height: 250px;
+  border: 6px solid #2e94e3;
+  border-radius: 20px;
+}
+.date:hover {
+  background: #2e95e360;
+  box-shadow: 0 0 30px #2e95e360;
+}
+.date #dayname {
+  background: linear-gradient(to right, #2e94e3, purple);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  z-index: -1;
+}
+.date #daynum {
+  border-top: solid 6px #2e94e3;
+}
+
+.time {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.time span {
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  width: 65px;
+  height: 65px;
+  border: 5px solid #2e94e3;
+  border-radius: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time span:hover {
+  background: #d92fdf6b;
+  box-shadow: 0 0 30px #d92fdf6b;
+}
+
+/* @media screen and (min-width: 420px) {
+  .datetime {
+    width: 45%;
+    height: 45%;
+  }
+  .date {
+    width: 100%;
+  }
+  .time {
+    width: 200%;
+  }
+} */
