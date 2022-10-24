@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+/* element selector */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/home/UCreate_UC_Only.png);
+    background-color:#acffb8d2;
+
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;  
+    background-attachment: fixed;
+
+    padding-top: 115px;
+
+}
+
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 10px;
+    background-color: #8de9b5;
+    float: left;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 15px 5px 0px #bdf5c6;
+
+
+}
+
+nav input {
+    width: 28%;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+nav div button {
+    float: left;
+    background-color: #ffc252d2;
+    border: 0px;
+    padding: 6px;
+    margin: 5px;
+    width: 8%;
+    font-size: 15px;
+    float: right;
+}
+
+nav div button a {
+    text-decoration: none;  
+    color: rgb(0, 141, 132);
+}
+
+.call {
+    float: left;
+    width: 70%;
+    
+
+}
+
+nav div h2, h1 {
+    text-align: center;
+    line-height: 10px;
+    color:  rgb(0, 141, 132);
+}
+
+.ucreate_logo {
+    text-align: center;
+    height: 55px;
+    float: left;
+    margin-right: 5%;
+    margin-top: 5px;
+    
+}
+
+section div {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,#8de9b5,#6d9ec6a3, #8de9b5 );
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section div form {
+    padding-bottom: 50px;
+}
+
+section div form input {
+    width: 450px;
+    height: 30px;
+    padding: 3px;
+    background-color: rgba(125, 254, 222, 0.597);
+    border-radius: 5px;
+}
+
+section div form select {
+    height: 30px;
+    width: 150;
+    background-color: rgba(125, 254, 222, 0.597);
+    border-radius: 5px;
+}
+
+section div form textarea {
+    height: 350px;
+    width: 1175px;
+    background-color: rgba(125, 254, 222, 0.597);
+    border-radius: 5px;
+ 
+}
+
+section div form button {
+    height: 30px;
+    width: 1175px;
+    position: absolute;
+    border-style: none;
+    background-color: rgba(84, 182, 157, 0.804);
+    border-radius: 15px;
+}
