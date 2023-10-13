@@ -23,6 +23,6 @@ class CurrencyTools {
     } else if (nominal < 1000000000000) {
       return '${nominalTerbilang(nominal ~/ 1000000000)} Milyar ${nominalTerbilang(nominal % 1000000000)}';
     } else {
-      return 'Nominal terlalu besar';
+      return 'Nominal tidak diidentifikas';
     }
   }
